@@ -1,3 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-A hidden .git file is added to the concerned directory. We need to do it because that is what makes a directory a git repository, the hidden .git file 
+A hidden .git file is added to the concerned directory. We need to do it because that is what makes a directory a git repository, the hidden .git file
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area let us make sort of half commits i.e., commits that don't reflect in the master file. So, any untoward changes can be undone easily. 
