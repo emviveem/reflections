@@ -4,4 +4,24 @@ A hidden .git file is added to the concerned directory. We need to do it because
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-The staging area let us make sort of half commits i.e., commits that don't reflect in the master file. So, any untoward changes can be undone easily. 
+The staging area let us make sort of half commits i.e., commits that don't reflect in the master file. So, any untoward changes can be undone easily.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+From the staging area, I can decide which changes I want to commit at a particular time. For multiple commits containing more than one logical change, I can make multiple single change commits until all my changes are committed. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+One very probable situation would be when I would like to test an experimental feature that is not ready for normal users to use, a feature that might potentially break my code. I can use branches to create a new branch where I could carry out my testing without any risk to the master version.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams help me visualize the branch structure by showing me the parent commit to every other commit, and its reachability can easily be determined looking at the diagram, which helps in identifying unreachable commits, and commits that have no effect in any way to the master, or any other branch whatsoever.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Any and all progress from either branch is made available to the branch it is merged with. Any changes or modification made in the branch are now part and parcel of the branch it is merged with. It is represented the way it is because it helps keep track of all the commits when it was a separate branch and what happens when it is merged later on. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Git's automatic merging is a fine option when there are no pending conflicts. Manual merging allows us greater control over when and what to merge.
