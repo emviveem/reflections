@@ -1,1 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
 
+I would do that when I want to commit all my changes and make that visible on github
