@@ -5,3 +5,9 @@ I would do that when I want to commit all my changes and make that visible on gi
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 I don't know. I'd like it to be automatically actually! :P
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are basically clones that happen on github servers. It is possible to reflect these changes, additions or deletions, etc on to your local computer by pulling the forked repository.
+Clones are basically forks as in repositories are forked when you do not have sufficient privleges to modify the contents, and clones are when yopu can access these repositores but you make a copy of the repository and work on it separately.
+Branches are divertions from the master route. These are used when coding on an experimental feature or whenever you don't want some changes to affect the master in any way. Branches can be merged with other branches or with the master later on to reflect the necessary changes. 
